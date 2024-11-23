@@ -209,14 +209,16 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label7.Location = new Point(49, 182);
+            label7.Location = new Point(45, 182);
             label7.Name = "label7";
-            label7.Size = new Size(122, 20);
+            label7.Size = new Size(126, 20);
             label7.TabIndex = 1;
-            label7.Text = "Rubber Grips";
+            label7.Text = "Rnox Helmet ";
             // 
             // pictureBox1
             // 
+            pictureBox1.BackgroundImage = Properties.Resources.rnoxhelmet2;
+            pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox1.Location = new Point(19, 17);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(170, 162);
@@ -256,14 +258,16 @@
             // 
             label12.AutoSize = true;
             label12.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label12.Location = new Point(49, 182);
+            label12.Location = new Point(19, 182);
             label12.Name = "label12";
-            label12.Size = new Size(122, 20);
+            label12.Size = new Size(187, 20);
             label12.TabIndex = 1;
-            label12.Text = "Rubber Grips";
+            label12.Text = "Kask Helmet(white) ";
             // 
             // pictureBox2
             // 
+            pictureBox2.BackgroundImage = Properties.Resources.kaskprotonhelmet2;
+            pictureBox2.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox2.Location = new Point(19, 17);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(170, 162);
@@ -305,12 +309,14 @@
             label15.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label15.Location = new Point(49, 182);
             label15.Name = "label15";
-            label15.Size = new Size(122, 20);
+            label15.Size = new Size(148, 20);
             label15.TabIndex = 1;
-            label15.Text = "Rubber Grips";
+            label15.Text = "VictGoal Helmet";
             // 
             // pictureBox3
             // 
+            pictureBox3.BackgroundImage = Properties.Resources.VictGoal_Helmet_RED_1;
+            pictureBox3.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox3.Location = new Point(19, 17);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(170, 162);
@@ -350,14 +356,16 @@
             // 
             label18.AutoSize = true;
             label18.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label18.Location = new Point(49, 182);
+            label18.Location = new Point(28, 182);
             label18.Name = "label18";
-            label18.Size = new Size(122, 20);
+            label18.Size = new Size(161, 20);
             label18.TabIndex = 1;
-            label18.Text = "Rubber Grips";
+            label18.Text = "Van Rysel Helmet";
             // 
             // pictureBox4
             // 
+            pictureBox4.BackgroundImage = Properties.Resources.Van_Rysel_Helmet;
+            pictureBox4.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox4.Location = new Point(19, 17);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(170, 162);
@@ -397,14 +405,16 @@
             // 
             label21.AutoSize = true;
             label21.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label21.Location = new Point(49, 182);
+            label21.Location = new Point(35, 182);
             label21.Name = "label21";
-            label21.Size = new Size(122, 20);
+            label21.Size = new Size(146, 20);
             label21.TabIndex = 1;
-            label21.Text = "Rubber Grips";
+            label21.Text = "FAVOTO Helmet";
             // 
             // pictureBox5
             // 
+            pictureBox5.BackgroundImage = Properties.Resources.Favoto_Helmet;
+            pictureBox5.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox5.Location = new Point(19, 17);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(170, 162);
@@ -444,14 +454,16 @@
             // 
             label24.AutoSize = true;
             label24.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label24.Location = new Point(49, 182);
+            label24.Location = new Point(17, 182);
             label24.Name = "label24";
-            label24.Size = new Size(122, 20);
+            label24.Size = new Size(172, 20);
             label24.TabIndex = 1;
-            label24.Text = "Rubber Grips";
+            label24.Text = "Kask Helmet(Blue)";
             // 
             // pictureBox6
             // 
+            pictureBox6.BackgroundImage = Properties.Resources.Kask_Helmet_Blue_;
+            pictureBox6.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox6.Location = new Point(19, 17);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(170, 162);

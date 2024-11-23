@@ -44,6 +44,7 @@
             // 
             // panel1
             // 
+            panel1.BackColor = SystemColors.ActiveCaption;
             panel1.Controls.Add(button2);
             panel1.Controls.Add(button1);
             panel1.Controls.Add(label3);
@@ -52,25 +53,26 @@
             panel1.Controls.Add(maskedTextBox2);
             panel1.Controls.Add(textBox2);
             panel1.Controls.Add(pictureBox1);
-            panel1.Location = new Point(248, 12);
+            panel1.Location = new Point(255, 42);
+            panel1.MinimumSize = new Size(200, 200);
             panel1.Name = "panel1";
-            panel1.Size = new Size(305, 536);
+            panel1.Size = new Size(345, 481);
             panel1.TabIndex = 1;
             // 
             // button2
             // 
-            button2.Location = new Point(200, 412);
+            button2.Location = new Point(206, 399);
             button2.Name = "button2";
-            button2.Size = new Size(73, 36);
+            button2.Size = new Size(73, 28);
             button2.TabIndex = 4;
             button2.Text = "Register";
             button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            button1.Location = new Point(46, 355);
+            button1.Location = new Point(86, 330);
             button1.Name = "button1";
-            button1.Size = new Size(210, 43);
+            button1.Size = new Size(178, 43);
             button1.TabIndex = 4;
             button1.Text = "Sign In";
             button1.UseVisualStyleBackColor = true;
@@ -78,25 +80,27 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(41, 164);
+            label3.Font = new Font("Verdana", 9F, FontStyle.Bold);
+            label3.Location = new Point(46, 164);
             label3.Name = "label3";
-            label3.Size = new Size(75, 20);
+            label3.Size = new Size(92, 18);
             label3.TabIndex = 3;
             label3.Text = "Username";
             // 
             // label2
             // 
             label2.AutoSize = true;
+            label2.Font = new Font("Verdana", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.Location = new Point(46, 250);
             label2.Name = "label2";
-            label2.Size = new Size(70, 20);
+            label2.Size = new Size(88, 18);
             label2.TabIndex = 3;
             label2.Text = "Password";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(41, 420);
+            label1.Location = new Point(46, 403);
             label1.Name = "label1";
             label1.Size = new Size(163, 20);
             label1.TabIndex = 3;
@@ -105,26 +109,28 @@
             // maskedTextBox2
             // 
             maskedTextBox2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            maskedTextBox2.Location = new Point(68, 283);
+            maskedTextBox2.Location = new Point(46, 271);
             maskedTextBox2.Name = "maskedTextBox2";
-            maskedTextBox2.Size = new Size(178, 34);
+            maskedTextBox2.PasswordChar = '*';
+            maskedTextBox2.Size = new Size(262, 34);
             maskedTextBox2.TabIndex = 2;
             // 
             // textBox2
             // 
             textBox2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.Location = new Point(68, 196);
+            textBox2.Location = new Point(46, 194);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(183, 34);
+            textBox2.Size = new Size(262, 34);
             textBox2.TabIndex = 1;
+            textBox2.TextChanged += textBox2_TextChanged;
             // 
             // pictureBox1
             // 
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(95, 65);
+            pictureBox1.Location = new Point(86, 38);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(131, 63);
+            pictureBox1.Size = new Size(178, 95);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 

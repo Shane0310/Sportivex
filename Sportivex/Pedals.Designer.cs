@@ -211,14 +211,16 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label7.Location = new Point(49, 182);
+            label7.Location = new Point(34, 182);
             label7.Name = "label7";
-            label7.Size = new Size(122, 20);
+            label7.Size = new Size(137, 20);
             label7.TabIndex = 1;
-            label7.Text = "Rubber Grips";
+            label7.Text = "Shimano Pedal";
             // 
             // pictureBox1
             // 
+            pictureBox1.BackgroundImage = Properties.Resources.Shimano_RS500_SPD_SL_Pedal1;
+            pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox1.Location = new Point(19, 17);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(170, 162);
@@ -258,14 +260,16 @@
             // 
             label12.AutoSize = true;
             label12.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label12.Location = new Point(49, 182);
+            label12.Location = new Point(22, 182);
             label12.Name = "label12";
-            label12.Size = new Size(122, 20);
+            label12.Size = new Size(149, 20);
             label12.TabIndex = 1;
-            label12.Text = "Rubber Grips";
+            label12.Text = "PR2_1000 Pedal";
             // 
             // pictureBox2
             // 
+            pictureBox2.BackgroundImage = Properties.Resources.exustar_bike_parts_accessories_e_pr2blk_64_10001;
+            pictureBox2.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox2.Location = new Point(19, 17);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(170, 162);
@@ -313,6 +317,8 @@
             // 
             // pictureBox3
             // 
+            pictureBox3.BackgroundImage = Properties.Resources._61TKGyNGNAL__AC_SL1500_;
+            pictureBox3.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox3.Location = new Point(19, 17);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(170, 162);
@@ -352,14 +358,16 @@
             // 
             label18.AutoSize = true;
             label18.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label18.Location = new Point(49, 182);
+            label18.Location = new Point(22, 182);
             label18.Name = "label18";
-            label18.Size = new Size(122, 20);
+            label18.Size = new Size(149, 20);
             label18.TabIndex = 1;
-            label18.Text = "Rubber Grips";
+            label18.Text = "MeetLocks Pedal";
             // 
             // pictureBox4
             // 
+            pictureBox4.BackgroundImage = Properties.Resources.The_MEETLOCKS_Bike_Pedal_Injection_Magnesium_Alloy_Body_Cr_Mo_Machined_9_16_inch_Screw_Thread_Spindle_Ultra_DU_Sealed_Bearings;
+            pictureBox4.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox4.Location = new Point(19, 17);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(170, 162);
@@ -399,14 +407,16 @@
             // 
             label21.AutoSize = true;
             label21.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label21.Location = new Point(49, 182);
+            label21.Location = new Point(51, 182);
             label21.Name = "label21";
-            label21.Size = new Size(122, 20);
+            label21.Size = new Size(120, 20);
             label21.TabIndex = 1;
-            label21.Text = "Rubber Grips";
+            label21.Text = "Scada Predal";
             // 
             // pictureBox5
             // 
+            pictureBox5.BackgroundImage = Properties.Resources.pedals_mtb_scm204_front;
+            pictureBox5.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox5.Location = new Point(19, 17);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(170, 162);
@@ -446,14 +456,16 @@
             // 
             label24.AutoSize = true;
             label24.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label24.Location = new Point(49, 182);
+            label24.Location = new Point(12, 182);
             label24.Name = "label24";
-            label24.Size = new Size(122, 20);
+            label24.Size = new Size(183, 20);
             label24.TabIndex = 1;
-            label24.Text = "Rubber Grips";
+            label24.Text = "Mountain Bike Pedal";
             // 
             // pictureBox6
             // 
+            pictureBox6.BackgroundImage = Properties.Resources.mountainbike_pedal;
+            pictureBox6.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox6.Location = new Point(19, 17);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(170, 162);

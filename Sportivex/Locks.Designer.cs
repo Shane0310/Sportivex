@@ -217,6 +217,8 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.BackgroundImage = Properties.Resources.OnGuard_Bulldog_DT_Bike_Lock_U_Lock_and_Cable_Combo31;
+            pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox1.Location = new Point(19, 17);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(170, 162);
@@ -264,6 +266,8 @@
             // 
             // pictureBox2
             // 
+            pictureBox2.BackgroundImage = Properties.Resources.OnGuard_Doberman_Coil_Cable_Bike_Lock2;
+            pictureBox2.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox2.Location = new Point(19, 17);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(170, 162);
@@ -311,6 +315,8 @@
             // 
             // pictureBox3
             // 
+            pictureBox3.BackgroundImage = Properties.Resources.OnGuard_Doberman_Coil_Cable_Bike_Lock11;
+            pictureBox3.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox3.Location = new Point(19, 17);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(170, 162);
@@ -358,6 +364,8 @@
             // 
             // pictureBox4
             // 
+            pictureBox4.BackgroundImage = Properties.Resources.OnGuard_Pitbull_STD_Bike_Lock_U_Lock4;
+            pictureBox4.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox4.Location = new Point(19, 17);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(170, 162);
@@ -405,6 +413,8 @@
             // 
             // pictureBox5
             // 
+            pictureBox5.BackgroundImage = Properties.Resources.OnGuard_Rottweiler_Bike_Lock_8024___Armored_Lock51;
+            pictureBox5.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox5.Location = new Point(19, 17);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(170, 162);
@@ -452,6 +462,8 @@
             // 
             // pictureBox6
             // 
+            pictureBox6.BackgroundImage = Properties.Resources.OnGuard_Mastiff_Bike_Lock___Chain_Lock6;
+            pictureBox6.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox6.Location = new Point(19, 17);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(170, 162);

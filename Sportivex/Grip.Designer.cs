@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Grip));
             panel3 = new Panel();
             label6 = new Label();
             label5 = new Label();
@@ -37,10 +38,10 @@
             label1 = new Label();
             flowLayoutPanel1 = new FlowLayoutPanel();
             panel1 = new Panel();
-            pictureBox1 = new PictureBox();
-            label7 = new Label();
             label8 = new Label();
             label9 = new Label();
+            label7 = new Label();
+            pictureBox1 = new PictureBox();
             panel2 = new Panel();
             label10 = new Label();
             label11 = new Label();
@@ -187,24 +188,6 @@
             panel1.Size = new Size(211, 262);
             panel1.TabIndex = 0;
             // 
-            // pictureBox1
-            // 
-            pictureBox1.Location = new Point(19, 17);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(170, 162);
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label7.Location = new Point(49, 182);
-            label7.Name = "label7";
-            label7.Size = new Size(122, 20);
-            label7.TabIndex = 1;
-            label7.Text = "Rubber Grips";
-            // 
             // label8
             // 
             label8.AutoSize = true;
@@ -222,6 +205,27 @@
             label9.Size = new Size(74, 20);
             label9.TabIndex = 1;
             label9.Text = "Stocks: 10";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label7.Location = new Point(19, 182);
+            label7.Name = "label7";
+            label7.Size = new Size(165, 20);
+            label7.TabIndex = 1;
+            label7.Text = "Lockon Grip (Red)";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.BackgroundImage = Properties.Resources.lockon_grip1;
+            pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox1.Location = new Point(19, 17);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(170, 162);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
             // 
             // panel2
             // 
@@ -256,17 +260,20 @@
             // 
             label12.AutoSize = true;
             label12.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label12.Location = new Point(49, 182);
+            label12.Location = new Point(19, 182);
             label12.Name = "label12";
-            label12.Size = new Size(122, 20);
+            label12.Size = new Size(170, 20);
             label12.TabIndex = 1;
-            label12.Text = "Rubber Grips";
+            label12.Text = "Lockon Grip (Blue)";
             // 
             // pictureBox2
             // 
+            pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
+            pictureBox2.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox2.Location = new Point(19, 17);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(170, 162);
+            pictureBox2.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox2.TabIndex = 0;
             pictureBox2.TabStop = false;
             // 
@@ -303,17 +310,20 @@
             // 
             label15.AutoSize = true;
             label15.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label15.Location = new Point(49, 182);
+            label15.Location = new Point(19, 182);
             label15.Name = "label15";
-            label15.Size = new Size(122, 20);
+            label15.Size = new Size(166, 20);
             label15.TabIndex = 1;
-            label15.Text = "Rubber Grips";
+            label15.Text = "Foam Grip (Black)";
             // 
             // pictureBox3
             // 
+            pictureBox3.BackgroundImage = Properties.Resources.foamgrip;
+            pictureBox3.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox3.Location = new Point(19, 17);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(170, 162);
+            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 0;
             pictureBox3.TabStop = false;
             // 
@@ -358,6 +368,8 @@
             // 
             // pictureBox4
             // 
+            pictureBox4.BackgroundImage = Properties.Resources.rubbergrip;
+            pictureBox4.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox4.Location = new Point(19, 17);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(170, 162);

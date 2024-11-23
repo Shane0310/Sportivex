@@ -61,11 +61,6 @@
             label20 = new Label();
             label21 = new Label();
             pictureBox5 = new PictureBox();
-            panel7 = new Panel();
-            label22 = new Label();
-            label23 = new Label();
-            label24 = new Label();
-            pictureBox6 = new PictureBox();
             panel3.SuspendLayout();
             flowLayoutPanel1.SuspendLayout();
             panel1.SuspendLayout();
@@ -78,8 +73,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
-            panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             SuspendLayout();
             // 
             // panel3
@@ -172,7 +165,6 @@
             flowLayoutPanel1.Controls.Add(panel4);
             flowLayoutPanel1.Controls.Add(panel5);
             flowLayoutPanel1.Controls.Add(panel6);
-            flowLayoutPanel1.Controls.Add(panel7);
             flowLayoutPanel1.Dock = DockStyle.Fill;
             flowLayoutPanel1.Location = new Point(0, 39);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -220,6 +212,8 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.BackgroundImage = Properties.Resources._71A0AxD2z3L1;
+            pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox1.Location = new Point(19, 17);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(170, 162);
@@ -267,6 +261,8 @@
             // 
             // pictureBox2
             // 
+            pictureBox2.BackgroundImage = Properties.Resources.Best_Bike_Pump_640x448;
+            pictureBox2.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox2.Location = new Point(19, 17);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(170, 162);
@@ -314,6 +310,8 @@
             // 
             // pictureBox3
             // 
+            pictureBox3.BackgroundImage = Properties.Resources.BIKE_PUMP_aluminum_alloy_Mini_Portable_Bike_pump;
+            pictureBox3.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox3.Location = new Point(19, 17);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(170, 162);
@@ -361,6 +359,8 @@
             // 
             // pictureBox4
             // 
+            pictureBox4.BackgroundImage = Properties.Resources.Bicycle_Pump;
+            pictureBox4.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox4.Location = new Point(19, 17);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(170, 162);
@@ -408,58 +408,13 @@
             // 
             // pictureBox5
             // 
+            pictureBox5.BackgroundImage = Properties.Resources.Aluminum_Portable_Bike_Floor_Tire_Pump;
+            pictureBox5.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox5.Location = new Point(19, 17);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(170, 162);
             pictureBox5.TabIndex = 0;
             pictureBox5.TabStop = false;
-            // 
-            // panel7
-            // 
-            panel7.Controls.Add(label22);
-            panel7.Controls.Add(label23);
-            panel7.Controls.Add(label24);
-            panel7.Controls.Add(pictureBox6);
-            panel7.Location = new Point(437, 271);
-            panel7.Name = "panel7";
-            panel7.Size = new Size(211, 262);
-            panel7.TabIndex = 0;
-            // 
-            // label22
-            // 
-            label22.AutoSize = true;
-            label22.Location = new Point(19, 228);
-            label22.Name = "label22";
-            label22.Size = new Size(72, 20);
-            label22.TabIndex = 1;
-            label22.Text = "Price: 500";
-            // 
-            // label23
-            // 
-            label23.AutoSize = true;
-            label23.Location = new Point(115, 228);
-            label23.Name = "label23";
-            label23.Size = new Size(74, 20);
-            label23.TabIndex = 1;
-            label23.Text = "Stocks: 10";
-            // 
-            // label24
-            // 
-            label24.AutoSize = true;
-            label24.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label24.Location = new Point(49, 182);
-            label24.Name = "label24";
-            label24.Size = new Size(122, 20);
-            label24.TabIndex = 1;
-            label24.Text = "Rubber Grips";
-            // 
-            // pictureBox6
-            // 
-            pictureBox6.Location = new Point(19, 17);
-            pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(170, 162);
-            pictureBox6.TabIndex = 0;
-            pictureBox6.TabStop = false;
             // 
             // Pumps
             // 
@@ -488,9 +443,6 @@
             panel6.ResumeLayout(false);
             panel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
-            panel7.ResumeLayout(false);
-            panel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ResumeLayout(false);
         }
 
@@ -529,10 +481,5 @@
         private Label label20;
         private Label label21;
         private PictureBox pictureBox5;
-        private Panel panel7;
-        private Label label22;
-        private Label label23;
-        private Label label24;
-        private PictureBox pictureBox6;
     }
 }
