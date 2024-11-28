@@ -171,6 +171,8 @@
             Controls.Add(panel1);
             Name = "SignIn";
             Text = "SignIn";
+            FormClosed += SignIn_FormClosed;
+            Load += SignIn_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

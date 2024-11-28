@@ -233,6 +233,7 @@
             bt_log.TabIndex = 1;
             bt_log.Text = "Log Out";
             bt_log.UseVisualStyleBackColor = true;
+            bt_log.Click += bt_log_Click;
             // 
             // pumps
             // 
@@ -343,6 +344,7 @@
             dataGridViewProducts.RowHeadersWidth = 51;
             dataGridViewProducts.Size = new Size(672, 494);
             dataGridViewProducts.TabIndex = 2;
+            dataGridViewProducts.CellContentClick += dataGridViewProducts_CellContentClick;
             // 
             // Column1
             // 
@@ -389,6 +391,7 @@
             Controls.Add(flowLayoutPanel1);
             Name = "Home";
             Text = "v";
+            FormClosed += Home_FormClosed;
             Load += Home_Load;
             flowLayoutPanel2.ResumeLayout(false);
             panel4.ResumeLayout(false);

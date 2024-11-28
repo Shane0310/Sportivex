@@ -38,135 +38,136 @@ namespace Sportivex
             this.Hide();
         }
 
-        //private void btnSearch_Click(object sender, EventArgs e)
-        //{
-        //    // Barcode search button logic
-        //    string barcode = txtBarcode.Text.Trim();
-        //    if (!string.IsNullOrEmpty(barcode))
-        //    {
-        //        AddProductToGrid(barcode);
-        //    }
-        //}
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            // Barcode search button logic
+            string barcode = txtBarcode.Text.Trim();
+            if (!string.IsNullOrEmpty(barcode))
+            {
+                //AddProductToGrid(barcode);
+            }
+        }
 
-        //private void AddProductToGrid(string barcode)
-        //{
-        //    try
-        //    {
-        //        using (SqlConnection conn = new SqlConnection("Server=YOUR_SERVER_NAME;Database=CashierSystem;Trusted_Connection=True;"))
-        //        {
-        //            conn.Open();
+        /*private void AddProductToGrid(string barcode)
+        {
+            try
+            {
+                using (SqlConnection conn = new SqlConnection("Server=localhost;Database=Sportivex;userid=root;password=''");
 
-        //            string query = "SELECT ProductCode, Description, Price FROM Products WHERE ProductCode = @Barcode";
-        //            SqlCommand cmd = new SqlCommand(query, conn);
-        //            cmd.Parameters.AddWithValue("@Barcode", barcode);
+))                {
+                    conn.Open();
 
-        //            SqlDataReader reader = cmd.ExecuteReader();
+                    string query = "SELECT ProductCode, Description, Price FROM Products WHERE ProductCode = @Barcode";
+                    SqlCommand cmd = new SqlCommand(query, conn);
+                    cmd.Parameters.AddWithValue("@Barcode", barcode);
 
-        //            if (reader.Read())
-        //            {
-        //                string productCode = reader["ProductCode"].ToString();
-        //                string description = reader["Description"].ToString();
-        //                decimal price = Convert.ToDecimal(reader["Price"]);
+                    SqlDataReader reader = cmd.ExecuteReader();
 
-        //                // Add the product to the DataGridView
-        //                int rowIndex = dataGridViewProducts.Rows.Add();
-        //                DataGridViewRow row = dataGridViewProducts.Rows[rowIndex];
-        //                row.Cells["No"].Value = rowIndex + 1;
-        //                row.Cells["PCode"].Value = productCode;
-        //                row.Cells["Description"].Value = description;
-        //                row.Cells["Price"].Value = price;
-        //                row.Cells["Qty"].Value = 1;
+                   if (reader.Read())
+                    {
+                        string productCode = reader["ProductCode"].ToString();
+                        string description = reader["Description"].ToString();
+                       decimal price = Convert.ToDecimal(reader["Price"]);
 
-        //                UpdateTotal();
-        //            }
-        //            else
-        //            {
-        //                MessageBox.Show("Product not found!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        //            }
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        //    }
-        //}
+                        // Add the product to the DataGridView
+                        int rowIndex = dataGridViewProducts.Rows.Add();
+                        DataGridViewRow row = dataGridViewProducts.Rows[rowIndex];
+                        row.Cells["No"].Value = rowIndex + 1;
+                        row.Cells["PCode"].Value = productCode;
+                        row.Cells["Description"].Value = description;
+                        row.Cells["Price"].Value = price;
+                        row.Cells["Qty"].Value = 1;
 
-        //private void UpdateTotal()
-        //{
-        //    try
-        //    {
-        //        decimal total = 0;
-        //        foreach (DataGridViewRow row in dataGridViewProducts.Rows)
-        //        {
-        //            if (row.Cells["Price"].Value != null && row.Cells["Qty"].Value != null)
-        //            {
-        //                decimal price = Convert.ToDecimal(row.Cells["Price"].Value);
-        //                int quantity = Convert.ToInt32(row.Cells["Qty"].Value);
-        //                total += price * quantity;
-        //            }
-        //        }
+                        UpdateTotal();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Product not found!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+           }
+        }
 
-        //        txtTotal.Text = $"{total:F2}";
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        MessageBox.Show($"An error occurred while calculating the total: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        //    }
-        //}
+        private void UpdateTotal()
+        {
+            try
+           {
+                decimal total = 0;
+                foreach (DataGridViewRow row in dataGridViewProducts.Rows)
+                {
+                    if (row.Cells["Price"].Value != null && row.Cells["Qty"].Value != null)
+                    {
+                        decimal price = Convert.ToDecimal(row.Cells["Price"].Value);
+                        int quantity = Convert.ToInt32(row.Cells["Qty"].Value);
+                       total += price * quantity;
+                    }
+                }
 
-        //private void btnCheckout_Click(object sender, EventArgs e)
-        //{
-        //    try
-        //    {
-        //        using (SqlConnection conn = new SqlConnection("Server=YOUR_SERVER_NAME;Database=CashierSystem;Trusted_Connection=True;"))
-        //        {
-        //            conn.Open();
-        //            SqlTransaction transaction = conn.BeginTransaction();
+                txtTotal.Text = $"{total:F2}";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An error occurred while calculating the total: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+/*
+        private void btnCheckout_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                using (SqlConnection conn = new SqlConnection("Server=YOUR_SERVER_NAME;Database=CashierSystem;Trusted_Connection=True;"))
+                {
+                    conn.Open();
+                    SqlTransaction transaction = conn.BeginTransaction();
 
-        //            try
-        //            {
-        //                // Insert into Transactions table
-        //                string insertTransaction = "INSERT INTO Transactions (Total, Discount) OUTPUT INSERTED.TransactionID VALUES (@Total, @Discount)";
-        //                SqlCommand cmd = new SqlCommand(insertTransaction, conn, transaction);
-        //                cmd.Parameters.AddWithValue("@Total", decimal.Parse(txtTotal.Text));
-        //                cmd.Parameters.AddWithValue("@Discount", decimal.Parse(txtDiscount.Text));
-        //                int transactionId = (int)cmd.ExecuteScalar();
+                    try
+                    {
+                        // Insert into Transactions table
+                        string insertTransaction = "INSERT INTO Transactions (Total, Discount) OUTPUT INSERTED.TransactionID VALUES (@Total, @Discount)";
+                        SqlCommand cmd = new SqlCommand(insertTransaction, conn, transaction);
+                        cmd.Parameters.AddWithValue("@Total", decimal.Parse(txtTotal.Text));
+                        cmd.Parameters.AddWithValue("@Discount", decimal.Parse(txtDiscount.Text));
+                        int transactionId = (int)cmd.ExecuteScalar();
 
-        //                // Insert into TransactionDetails table
-        //                foreach (DataGridViewRow row in dataGridViewProducts.Rows)
-        //                {
-        //                    if (row.Cells["PCode"].Value != null)
-        //                    {
-        //                        string insertDetails = "INSERT INTO TransactionDetails (TransactionID, ProductID, Quantity, SubTotal) " +
-        //                            "VALUES (@TransactionID, (SELECT ProductID FROM Products WHERE ProductCode = @ProductCode), @Quantity, @SubTotal)";
-        //                        SqlCommand detailCmd = new SqlCommand(insertDetails, conn, transaction);
-        //                        detailCmd.Parameters.AddWithValue("@TransactionID", transactionId);
-        //                        detailCmd.Parameters.AddWithValue("@ProductCode", row.Cells["PCode"].Value.ToString());
-        //                        detailCmd.Parameters.AddWithValue("@Quantity", Convert.ToInt32(row.Cells["Qty"].Value));
-        //                        detailCmd.Parameters.AddWithValue("@SubTotal", Convert.ToDecimal(row.Cells["Price"].Value) * Convert.ToInt32(row.Cells["Qty"].Value));
-        //                        detailCmd.ExecuteNonQuery();
-        //                    }
-        //                }
+                       // Insert into TransactionDetails table
+                        foreach (DataGridViewRow row in dataGridViewProducts.Rows)
+                       {
+                           if (row.Cells["PCode"].Value != null)
+                            {
+                                string insertDetails = "INSERT INTO TransactionDetails (TransactionID, ProductID, Quantity, SubTotal) " +
+                                   "VALUES (@TransactionID, (SELECT ProductID FROM Products WHERE ProductCode = @ProductCode), @Quantity, @SubTotal)";
+                                SqlCommand detailCmd = new SqlCommand(insertDetails, conn, transaction);
+                               detailCmd.Parameters.AddWithValue("@TransactionID", transactionId);
+                               detailCmd.Parameters.AddWithValue("@ProductCode", row.Cells["PCode"].Value.ToString());
+                                detailCmd.Parameters.AddWithValue("@Quantity", Convert.ToInt32(row.Cells["Qty"].Value));
+                                detailCmd.Parameters.AddWithValue("@SubTotal", Convert.ToDecimal(row.Cells["Price"].Value) * Convert.ToInt32(row.Cells["Qty"].Value));
+                                detailCmd.ExecuteNonQuery();
+                            }
+                       }
 
-        //                transaction.Commit();
-        //                MessageBox.Show("Transaction completed successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                          transaction.Commit();
+                        MessageBox.Show("Transaction completed successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-        //                // Reset transaction for the next one
-        //                InitializeTransaction();
-        //                dataGridViewProducts.Rows.Clear();
-        //            }
-        //            catch (Exception ex)
-        //            {
-        //                transaction.Rollback();
-        //                MessageBox.Show($"Transaction failed: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        //            }
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        //    }
-        //}
+                        // Reset transaction for the next one
+                        InitializeTransaction();
+                       dataGridViewProducts.Rows.Clear();
+                    }
+                    catch (Exception ex)
+                    {
+                       transaction.Rollback();
+                        MessageBox.Show($"Transaction failed: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+           }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        } */
 
         private void home_Click(object sender, EventArgs e)
         {
@@ -209,7 +210,25 @@ namespace Sportivex
             grips.Show();
             this.Hide();
         }
+
+        private void dataGridViewProducts_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void bt_log_Click(object sender, EventArgs e)
+        {
+            SignIn form = new SignIn();
+            form.Show();
+            this.Close();
+        }
+
+        private void Home_FormClosed(object sender, FormClosedEventArgs e)
+        {
+          
+        }
     }
 }
+
 
 

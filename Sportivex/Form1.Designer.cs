@@ -39,6 +39,7 @@
             // panel1
             // 
             panel1.AllowDrop = true;
+            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             panel1.AutoSize = true;
             panel1.BackColor = SystemColors.ActiveCaption;
             panel1.Controls.Add(button1);
@@ -80,6 +81,7 @@
             MinimumSize = new Size(700, 700);
             Name = "Form1";
             Text = "Form1";
+            WindowState = FormWindowState.Maximized;
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

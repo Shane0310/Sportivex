@@ -34,9 +34,9 @@ namespace Sportivex
             if (reader.Read())
 
             {
-               Home signin = new Home();
-               signin.Show();
-               this.Hide();
+                Home signin = new Home();
+                signin.Show();
+                this.Hide();
             }
             else
             {
@@ -50,6 +50,16 @@ namespace Sportivex
             SignUp signUp = new SignUp();
             signUp.Show();
             this.Hide();
+        }
+
+        private void SignIn_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SignIn_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
