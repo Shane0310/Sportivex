@@ -59,6 +59,7 @@
             button1.TabIndex = 1;
             button1.Text = "Let's Get Started";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // pictureBox1
             // 

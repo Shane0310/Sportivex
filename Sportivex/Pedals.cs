@@ -16,5 +16,52 @@ namespace Sportivex
         {
             InitializeComponent();
         }
+
+        private void lb_Home_Click(object sender, EventArgs e)
+        {
+            Home home = new Home();
+            home.Show();
+            this.Hide();
+        }
+
+        private void grips_Click(object sender, EventArgs e)
+        {
+            Grip grips = new Grip();
+            grips.Show();
+            this.Hide();
+        }
+
+        private void helmet_Click(object sender, EventArgs e)
+        {
+            Helmets helmet = new Helmets();
+            helmet.Show();
+            this.Hide();
+        }
+
+        private void locks_Click(object sender, EventArgs e)
+        {
+            Locks locks = new Locks();
+            locks.Show();
+            this.Hide();
+        }
+
+        private void eyewear_Click(object sender, EventArgs e)
+        {
+            Eyewear eyewear = new Eyewear();
+            eyewear.Show();
+            this.Hide();
+        }
+
+        private void pumps_Click(object sender, EventArgs e)
+        {
+            Pumps pump = new Pumps();
+            pump.Show();
+            this.Hide();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

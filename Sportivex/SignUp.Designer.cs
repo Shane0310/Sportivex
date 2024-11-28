@@ -30,17 +30,17 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignUp));
             panel1 = new Panel();
-            button2 = new Button();
-            button1 = new Button();
+            Log_in = new Button();
+            Sign_up = new Button();
             label5 = new Label();
             label3 = new Label();
             label4 = new Label();
             label2 = new Label();
             label1 = new Label();
-            maskedTextBox2 = new MaskedTextBox();
-            maskedTextBox1 = new MaskedTextBox();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
+            X_password = new MaskedTextBox();
+            X_cpassword = new MaskedTextBox();
+            X_username = new TextBox();
+            X_email = new TextBox();
             pictureBox1 = new PictureBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -49,44 +49,46 @@
             // panel1
             // 
             panel1.BackColor = SystemColors.ActiveCaption;
-            panel1.Controls.Add(button2);
-            panel1.Controls.Add(button1);
+            panel1.Controls.Add(Log_in);
+            panel1.Controls.Add(Sign_up);
             panel1.Controls.Add(label5);
             panel1.Controls.Add(label3);
             panel1.Controls.Add(label4);
             panel1.Controls.Add(label2);
             panel1.Controls.Add(label1);
-            panel1.Controls.Add(maskedTextBox2);
-            panel1.Controls.Add(maskedTextBox1);
-            panel1.Controls.Add(textBox2);
-            panel1.Controls.Add(textBox1);
+            panel1.Controls.Add(X_password);
+            panel1.Controls.Add(X_cpassword);
+            panel1.Controls.Add(X_username);
+            panel1.Controls.Add(X_email);
             panel1.Controls.Add(pictureBox1);
             panel1.Location = new Point(293, 30);
             panel1.Name = "panel1";
             panel1.Size = new Size(375, 536);
             panel1.TabIndex = 2;
             // 
-            // button2
+            // Log_in
             // 
-            button2.Font = new Font("Verdana", 9F, FontStyle.Bold);
-            button2.Location = new Point(228, 477);
-            button2.Name = "button2";
-            button2.Size = new Size(73, 36);
-            button2.TabIndex = 4;
-            button2.Text = "Login";
-            button2.UseVisualStyleBackColor = true;
+            Log_in.Font = new Font("Verdana", 9F, FontStyle.Bold);
+            Log_in.ForeColor = Color.DarkViolet;
+            Log_in.Location = new Point(237, 477);
+            Log_in.Name = "Log_in";
+            Log_in.Size = new Size(73, 36);
+            Log_in.TabIndex = 4;
+            Log_in.Text = "Login";
+            Log_in.UseVisualStyleBackColor = true;
+            Log_in.Click += Log_in_Click;
             // 
-            // button1
+            // Sign_up
             // 
-            button1.BackColor = SystemColors.ActiveBorder;
-            button1.Font = new Font("Verdana", 9F, FontStyle.Bold);
-            button1.Location = new Point(91, 411);
-            button1.Name = "button1";
-            button1.Size = new Size(210, 43);
-            button1.TabIndex = 4;
-            button1.Text = "Sign Up";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            Sign_up.BackColor = SystemColors.ActiveBorder;
+            Sign_up.Font = new Font("Verdana", 9F, FontStyle.Bold);
+            Sign_up.Location = new Point(91, 411);
+            Sign_up.Name = "Sign_up";
+            Sign_up.Size = new Size(210, 43);
+            Sign_up.TabIndex = 4;
+            Sign_up.Text = "Sign Up";
+            Sign_up.UseVisualStyleBackColor = false;
+            Sign_up.Click += button1_Click;
             // 
             // label5
             // 
@@ -131,43 +133,46 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(50, 485);
+            label1.Location = new Point(68, 485);
             label1.Name = "label1";
             label1.Size = new Size(172, 20);
             label1.TabIndex = 3;
             label1.Text = "Already had an account?";
             // 
-            // maskedTextBox2
+            // X_password
             // 
-            maskedTextBox2.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            maskedTextBox2.Location = new Point(41, 282);
-            maskedTextBox2.Name = "maskedTextBox2";
-            maskedTextBox2.Size = new Size(297, 41);
-            maskedTextBox2.TabIndex = 2;
+            X_password.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            X_password.Location = new Point(41, 282);
+            X_password.Name = "X_password";
+            X_password.PasswordChar = '*';
+            X_password.Size = new Size(297, 41);
+            X_password.TabIndex = 2;
+            X_password.MaskInputRejected += X_password_MaskInputRejected;
             // 
-            // maskedTextBox1
+            // X_cpassword
             // 
-            maskedTextBox1.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            maskedTextBox1.Location = new Point(41, 347);
-            maskedTextBox1.Name = "maskedTextBox1";
-            maskedTextBox1.Size = new Size(297, 41);
-            maskedTextBox1.TabIndex = 2;
+            X_cpassword.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            X_cpassword.Location = new Point(41, 347);
+            X_cpassword.Name = "X_cpassword";
+            X_cpassword.PasswordChar = '*';
+            X_cpassword.Size = new Size(297, 41);
+            X_cpassword.TabIndex = 2;
             // 
-            // textBox2
+            // X_username
             // 
-            textBox2.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.Location = new Point(41, 141);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(297, 41);
-            textBox2.TabIndex = 1;
+            X_username.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            X_username.Location = new Point(41, 141);
+            X_username.Name = "X_username";
+            X_username.Size = new Size(297, 41);
+            X_username.TabIndex = 1;
             // 
-            // textBox1
+            // X_email
             // 
-            textBox1.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(41, 213);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(297, 41);
-            textBox1.TabIndex = 1;
+            X_email.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            X_email.Location = new Point(41, 213);
+            X_email.Name = "X_email";
+            X_email.Size = new Size(297, 41);
+            X_email.TabIndex = 1;
             // 
             // pictureBox1
             // 
@@ -196,17 +201,17 @@
         #endregion
 
         private Panel panel1;
-        private Button button2;
-        private Button button1;
+        private Button Log_in;
+        private Button Sign_up;
         private Label label5;
         private Label label3;
         private Label label4;
         private Label label2;
         private Label label1;
-        private MaskedTextBox maskedTextBox2;
-        private MaskedTextBox maskedTextBox1;
-        private TextBox textBox2;
-        private TextBox textBox1;
+        private MaskedTextBox X_password;
+        private MaskedTextBox X_cpassword;
+        private TextBox X_username;
+        private TextBox X_email;
         private PictureBox pictureBox1;
     }
 }

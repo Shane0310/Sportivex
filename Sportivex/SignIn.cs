@@ -17,9 +17,18 @@ namespace Sportivex
             InitializeComponent();
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        private void Sign_in_Click(object sender, EventArgs e)
         {
+            Home signin = new Home();
+            signin.Show();
+            this.Hide();
+        }
 
+        private void register_Click(object sender, EventArgs e)
+        {
+            SignUp signUp = new SignUp();
+            signUp.Show();
+            this.Hide();
         }
     }
 }
