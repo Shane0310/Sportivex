@@ -26,14 +26,14 @@ namespace Sportivex
 
         private void label26_Click(object sender, EventArgs e)
         {
-            Grip grips = new Grip();
-            grips.Show();
+            Locks locks = new Locks();
+            locks.Show();
             this.Hide();
         }
 
         private void label25_Click(object sender, EventArgs e)
         {
-            Locks locks = new Locks();
+            Helmets locks = new Helmets();
             locks.Show();
             this.Hide();
         }

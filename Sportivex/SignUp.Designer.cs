@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignUp));
             panel1 = new Panel();
-            Log_in = new Button();
+            Sign_in = new Label();
             Sign_up = new Button();
             label5 = new Label();
             label3 = new Label();
@@ -49,7 +49,7 @@
             // panel1
             // 
             panel1.BackColor = SystemColors.ActiveCaption;
-            panel1.Controls.Add(Log_in);
+            panel1.Controls.Add(Sign_in);
             panel1.Controls.Add(Sign_up);
             panel1.Controls.Add(label5);
             panel1.Controls.Add(label3);
@@ -66,17 +66,17 @@
             panel1.Size = new Size(375, 536);
             panel1.TabIndex = 2;
             // 
-            // Log_in
+            // Sign_in
             // 
-            Log_in.Font = new Font("Verdana", 9F, FontStyle.Bold);
-            Log_in.ForeColor = Color.DarkViolet;
-            Log_in.Location = new Point(237, 477);
-            Log_in.Name = "Log_in";
-            Log_in.Size = new Size(73, 36);
-            Log_in.TabIndex = 4;
-            Log_in.Text = "Login";
-            Log_in.UseVisualStyleBackColor = true;
-            Log_in.Click += Log_in_Click;
+            Sign_in.AutoSize = true;
+            Sign_in.Font = new Font("Verdana", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Sign_in.ForeColor = Color.DarkViolet;
+            Sign_in.Location = new Point(236, 485);
+            Sign_in.Name = "Sign_in";
+            Sign_in.Size = new Size(66, 18);
+            Sign_in.TabIndex = 5;
+            Sign_in.Text = "Sign In";
+            Sign_in.Click += Sign_in_Click;
             // 
             // Sign_up
             // 
@@ -201,7 +201,6 @@
         #endregion
 
         private Panel panel1;
-        private Button Log_in;
         private Button Sign_up;
         private Label label5;
         private Label label3;
@@ -213,5 +212,6 @@
         private TextBox X_username;
         private TextBox X_email;
         private PictureBox pictureBox1;
+        private Label Sign_in;
     }
 }

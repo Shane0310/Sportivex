@@ -77,7 +77,7 @@
             label4 = new Label();
             label5 = new Label();
             label6 = new Label();
-            label25 = new Label();
+            lb_helmet = new Label();
             lb_Home = new Label();
             label26 = new Label();
             flowLayoutPanel4 = new FlowLayoutPanel();
@@ -553,7 +553,7 @@
             panel8.Controls.Add(label4);
             panel8.Controls.Add(label5);
             panel8.Controls.Add(label6);
-            panel8.Controls.Add(label25);
+            panel8.Controls.Add(lb_helmet);
             panel8.Controls.Add(lb_Home);
             panel8.Controls.Add(label26);
             panel8.Location = new Point(3, 89);
@@ -615,16 +615,16 @@
             label6.TabIndex = 0;
             label6.Text = "LOCKS";
             // 
-            // label25
+            // lb_helmet
             // 
-            label25.AutoSize = true;
-            label25.Font = new Font("Verdana", 10.2F, FontStyle.Bold);
-            label25.Location = new Point(27, 112);
-            label25.Name = "label25";
-            label25.Size = new Size(98, 20);
-            label25.TabIndex = 0;
-            label25.Text = "HELMETS";
-            label25.Click += label25_Click;
+            lb_helmet.AutoSize = true;
+            lb_helmet.Font = new Font("Verdana", 10.2F, FontStyle.Bold);
+            lb_helmet.Location = new Point(27, 112);
+            lb_helmet.Name = "lb_helmet";
+            lb_helmet.Size = new Size(98, 20);
+            lb_helmet.TabIndex = 0;
+            lb_helmet.Text = "HELMETS";
+            lb_helmet.Click += label25_Click;
             // 
             // lb_Home
             // 
@@ -886,7 +886,7 @@
         private Label label4;
         private Label label5;
         private Label label6;
-        private Label label25;
+        private Label lb_helmet;
         private Label lb_Home;
         private Label label26;
         private FlowLayoutPanel flowLayoutPanel4;
