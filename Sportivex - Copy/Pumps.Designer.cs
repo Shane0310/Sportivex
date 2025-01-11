@@ -1,6 +1,6 @@
 ﻿namespace Sportivex
 {
-    partial class Grip
+    partial class Pumps
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Grip));
             flowLayoutPanel1 = new FlowLayoutPanel();
             panel1 = new Panel();
-            button1 = new Button();
             label8 = new Label();
             label9 = new Label();
             label7 = new Label();
@@ -56,16 +54,11 @@
             label20 = new Label();
             label21 = new Label();
             pictureBox5 = new PictureBox();
-            panel7 = new Panel();
-            label22 = new Label();
-            label23 = new Label();
-            label24 = new Label();
-            pictureBox6 = new PictureBox();
             flowLayoutPanel2 = new FlowLayoutPanel();
-            pictureBox7 = new PictureBox();
+            pictureBox6 = new PictureBox();
             panel3 = new Panel();
             bt_log = new Button();
-            pumps = new Label();
+            label1 = new Label();
             pedals = new Label();
             eyewear = new Label();
             locks = new Label();
@@ -73,19 +66,19 @@
             lb_Home = new Label();
             grips = new Label();
             flowLayoutPanel3 = new FlowLayoutPanel();
-            panel8 = new Panel();
+            panel7 = new Panel();
             txtDate = new Label();
             date = new Label();
             txtTransactionNo = new Label();
             trac = new Label();
-            panel9 = new Panel();
-            label1 = new Label();
+            panel8 = new Panel();
+            label2 = new Label();
             txtDiscount = new Label();
             txtTotal = new Label();
-            label2 = new Label();
+            label3 = new Label();
             btn_search = new Button();
             txtBarcode = new TextBox();
-            label3 = new Label();
+            label4 = new Label();
             flowLayoutPanel1.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -97,14 +90,12 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
-            panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             flowLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             panel3.SuspendLayout();
             flowLayoutPanel3.SuspendLayout();
+            panel7.SuspendLayout();
             panel8.SuspendLayout();
-            panel9.SuspendLayout();
             SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -115,15 +106,13 @@
             flowLayoutPanel1.Controls.Add(panel4);
             flowLayoutPanel1.Controls.Add(panel5);
             flowLayoutPanel1.Controls.Add(panel6);
-            flowLayoutPanel1.Controls.Add(panel7);
-            flowLayoutPanel1.Location = new Point(157, 0);
+            flowLayoutPanel1.Location = new Point(157, 3);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(459, 492);
-            flowLayoutPanel1.TabIndex = 7;
+            flowLayoutPanel1.Size = new Size(458, 469);
+            flowLayoutPanel1.TabIndex = 8;
             // 
             // panel1
             // 
-            panel1.Controls.Add(button1);
             panel1.Controls.Add(label8);
             panel1.Controls.Add(label9);
             panel1.Controls.Add(label7);
@@ -132,16 +121,6 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(211, 262);
             panel1.TabIndex = 0;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(65, 205);
-            button1.Name = "button1";
-            button1.Size = new Size(56, 29);
-            button1.TabIndex = 2;
-            button1.Text = "+";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click_1;
             // 
             // label8
             // 
@@ -165,15 +144,15 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label7.Location = new Point(24, 182);
+            label7.Location = new Point(49, 182);
             label7.Name = "label7";
-            label7.Size = new Size(147, 20);
+            label7.Size = new Size(122, 20);
             label7.TabIndex = 1;
-            label7.Text = "Aielbro Eyewear";
+            label7.Text = "Rubber Grips";
             // 
             // pictureBox1
             // 
-            pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
+            pictureBox1.BackgroundImage = Properties.Resources._71A0AxD2z3L1;
             pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox1.Location = new Point(19, 17);
             pictureBox1.Name = "pictureBox1";
@@ -214,15 +193,15 @@
             // 
             label12.AutoSize = true;
             label12.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label12.Location = new Point(35, 182);
+            label12.Location = new Point(49, 182);
             label12.Name = "label12";
-            label12.Size = new Size(147, 20);
+            label12.Size = new Size(122, 20);
             label12.TabIndex = 1;
-            label12.Text = "4KAAD Eyewear";
+            label12.Text = "Rubber Grips";
             // 
             // pictureBox2
             // 
-            pictureBox2.BackgroundImage = Properties.Resources._4KAAD_Eyewear_pink_;
+            pictureBox2.BackgroundImage = Properties.Resources.Best_Bike_Pump_640x448;
             pictureBox2.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox2.Location = new Point(19, 17);
             pictureBox2.Name = "pictureBox2";
@@ -263,15 +242,15 @@
             // 
             label15.AutoSize = true;
             label15.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label15.Location = new Point(36, 182);
+            label15.Location = new Point(49, 182);
             label15.Name = "label15";
-            label15.Size = new Size(125, 20);
+            label15.Size = new Size(122, 20);
             label15.TabIndex = 1;
-            label15.Text = "KOO Eyewear";
+            label15.Text = "Rubber Grips";
             // 
             // pictureBox3
             // 
-            pictureBox3.BackgroundImage = Properties.Resources.KOO_Eyewear__Green_;
+            pictureBox3.BackgroundImage = Properties.Resources.BIKE_PUMP_aluminum_alloy_Mini_Portable_Bike_pump;
             pictureBox3.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox3.Location = new Point(19, 17);
             pictureBox3.Name = "pictureBox3";
@@ -312,15 +291,15 @@
             // 
             label18.AutoSize = true;
             label18.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label18.Location = new Point(25, 182);
+            label18.Location = new Point(49, 182);
             label18.Name = "label18";
-            label18.Size = new Size(150, 20);
+            label18.Size = new Size(122, 20);
             label18.TabIndex = 1;
-            label18.Text = "Kapvoe Eyewear";
+            label18.Text = "Rubber Grips";
             // 
             // pictureBox4
             // 
-            pictureBox4.BackgroundImage = Properties.Resources.Kapvoe_Eyewear;
+            pictureBox4.BackgroundImage = Properties.Resources.Bicycle_Pump;
             pictureBox4.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox4.Location = new Point(19, 17);
             pictureBox4.Name = "pictureBox4";
@@ -361,15 +340,15 @@
             // 
             label21.AutoSize = true;
             label21.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label21.Location = new Point(34, 182);
+            label21.Location = new Point(49, 182);
             label21.Name = "label21";
-            label21.Size = new Size(148, 20);
+            label21.Size = new Size(122, 20);
             label21.TabIndex = 1;
-            label21.Text = "SCVCN Eyewear";
+            label21.Text = "Rubber Grips";
             // 
             // pictureBox5
             // 
-            pictureBox5.BackgroundImage = Properties.Resources.SCVCN_Eyewear;
+            pictureBox5.BackgroundImage = Properties.Resources.Aluminum_Portable_Bike_Floor_Tire_Pump;
             pictureBox5.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox5.Location = new Point(19, 17);
             pictureBox5.Name = "pictureBox5";
@@ -377,80 +356,31 @@
             pictureBox5.TabIndex = 0;
             pictureBox5.TabStop = false;
             // 
-            // panel7
-            // 
-            panel7.Controls.Add(label22);
-            panel7.Controls.Add(label23);
-            panel7.Controls.Add(label24);
-            panel7.Controls.Add(pictureBox6);
-            panel7.Location = new Point(220, 539);
-            panel7.Name = "panel7";
-            panel7.Size = new Size(211, 262);
-            panel7.TabIndex = 0;
-            // 
-            // label22
-            // 
-            label22.AutoSize = true;
-            label22.Location = new Point(19, 228);
-            label22.Name = "label22";
-            label22.Size = new Size(72, 20);
-            label22.TabIndex = 1;
-            label22.Text = "Price: 500";
-            // 
-            // label23
-            // 
-            label23.AutoSize = true;
-            label23.Location = new Point(115, 228);
-            label23.Name = "label23";
-            label23.Size = new Size(74, 20);
-            label23.TabIndex = 1;
-            label23.Text = "Stocks: 10";
-            // 
-            // label24
-            // 
-            label24.AutoSize = true;
-            label24.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label24.Location = new Point(36, 182);
-            label24.Name = "label24";
-            label24.Size = new Size(146, 20);
-            label24.TabIndex = 1;
-            label24.Text = "HEURE Eyewear";
-            // 
-            // pictureBox6
-            // 
-            pictureBox6.BackgroundImage = Properties.Resources.HEURE_Eyewear;
-            pictureBox6.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox6.Location = new Point(19, 17);
-            pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(170, 162);
-            pictureBox6.TabIndex = 0;
-            pictureBox6.TabStop = false;
-            // 
             // flowLayoutPanel2
             // 
             flowLayoutPanel2.BackColor = SystemColors.ActiveCaption;
-            flowLayoutPanel2.Controls.Add(pictureBox7);
+            flowLayoutPanel2.Controls.Add(pictureBox6);
             flowLayoutPanel2.Controls.Add(panel3);
             flowLayoutPanel2.Dock = DockStyle.Left;
             flowLayoutPanel2.Location = new Point(0, 0);
             flowLayoutPanel2.Name = "flowLayoutPanel2";
             flowLayoutPanel2.Size = new Size(151, 495);
-            flowLayoutPanel2.TabIndex = 8;
+            flowLayoutPanel2.TabIndex = 11;
             // 
-            // pictureBox7
+            // pictureBox6
             // 
-            pictureBox7.BackgroundImage = Properties.Resources.Group_1;
-            pictureBox7.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox7.Location = new Point(3, 3);
-            pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(142, 80);
-            pictureBox7.TabIndex = 0;
-            pictureBox7.TabStop = false;
+            pictureBox6.BackgroundImage = Properties.Resources.Group_1;
+            pictureBox6.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox6.Location = new Point(3, 3);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new Size(142, 80);
+            pictureBox6.TabIndex = 0;
+            pictureBox6.TabStop = false;
             // 
             // panel3
             // 
             panel3.Controls.Add(bt_log);
-            panel3.Controls.Add(pumps);
+            panel3.Controls.Add(label1);
             panel3.Controls.Add(pedals);
             panel3.Controls.Add(eyewear);
             panel3.Controls.Add(locks);
@@ -461,6 +391,7 @@
             panel3.Name = "panel3";
             panel3.Size = new Size(142, 405);
             panel3.TabIndex = 1;
+            panel3.Paint += panel3_Paint;
             // 
             // bt_log
             // 
@@ -472,16 +403,17 @@
             bt_log.Text = "Log Out";
             bt_log.UseVisualStyleBackColor = true;
             // 
-            // pumps
+            // label1
             // 
-            pumps.AutoSize = true;
-            pumps.Font = new Font("Verdana", 10.2F, FontStyle.Bold);
-            pumps.Location = new Point(27, 298);
-            pumps.Name = "pumps";
-            pumps.Size = new Size(75, 20);
-            pumps.TabIndex = 0;
-            pumps.Text = "PUMPS";
-            pumps.Click += pumps_Click;
+            label1.AutoSize = true;
+            label1.Font = new Font("Verdana", 10.2F, FontStyle.Bold);
+            label1.ForeColor = Color.Transparent;
+            label1.Location = new Point(27, 298);
+            label1.Name = "label1";
+            label1.Size = new Size(75, 20);
+            label1.TabIndex = 0;
+            label1.Text = "PUMPS";
+            label1.Click += label1_Click;
             // 
             // pedals
             // 
@@ -543,7 +475,6 @@
             // 
             grips.AutoSize = true;
             grips.Font = new Font("Verdana", 10.2F, FontStyle.Bold);
-            grips.ForeColor = Color.Transparent;
             grips.Location = new Point(27, 63);
             grips.Name = "grips";
             grips.Size = new Size(69, 20);
@@ -554,24 +485,24 @@
             // flowLayoutPanel3
             // 
             flowLayoutPanel3.BackColor = SystemColors.ActiveCaption;
+            flowLayoutPanel3.Controls.Add(panel7);
             flowLayoutPanel3.Controls.Add(panel8);
-            flowLayoutPanel3.Controls.Add(panel9);
             flowLayoutPanel3.Dock = DockStyle.Right;
             flowLayoutPanel3.Location = new Point(616, 0);
             flowLayoutPanel3.Name = "flowLayoutPanel3";
             flowLayoutPanel3.Size = new Size(245, 495);
-            flowLayoutPanel3.TabIndex = 9;
+            flowLayoutPanel3.TabIndex = 12;
             // 
-            // panel8
+            // panel7
             // 
-            panel8.Controls.Add(txtDate);
-            panel8.Controls.Add(date);
-            panel8.Controls.Add(txtTransactionNo);
-            panel8.Controls.Add(trac);
-            panel8.Location = new Point(3, 3);
-            panel8.Name = "panel8";
-            panel8.Size = new Size(250, 143);
-            panel8.TabIndex = 0;
+            panel7.Controls.Add(txtDate);
+            panel7.Controls.Add(date);
+            panel7.Controls.Add(txtTransactionNo);
+            panel7.Controls.Add(trac);
+            panel7.Location = new Point(3, 3);
+            panel7.Name = "panel7";
+            panel7.Size = new Size(250, 143);
+            panel7.TabIndex = 0;
             // 
             // txtDate
             // 
@@ -611,29 +542,29 @@
             trac.TabIndex = 0;
             trac.Text = "Transaction No.";
             // 
-            // panel9
+            // panel8
             // 
-            panel9.Controls.Add(label1);
-            panel9.Controls.Add(txtDiscount);
-            panel9.Controls.Add(txtTotal);
-            panel9.Controls.Add(label2);
-            panel9.Controls.Add(btn_search);
-            panel9.Controls.Add(txtBarcode);
-            panel9.Controls.Add(label3);
-            panel9.Location = new Point(3, 152);
-            panel9.Name = "panel9";
-            panel9.Size = new Size(250, 298);
-            panel9.TabIndex = 0;
+            panel8.Controls.Add(label2);
+            panel8.Controls.Add(txtDiscount);
+            panel8.Controls.Add(txtTotal);
+            panel8.Controls.Add(label3);
+            panel8.Controls.Add(btn_search);
+            panel8.Controls.Add(txtBarcode);
+            panel8.Controls.Add(label4);
+            panel8.Location = new Point(3, 152);
+            panel8.Name = "panel8";
+            panel8.Size = new Size(250, 298);
+            panel8.TabIndex = 0;
             // 
-            // label1
+            // label2
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Verdana", 9F, FontStyle.Bold);
-            label1.Location = new Point(8, 208);
-            label1.Name = "label1";
-            label1.Size = new Size(104, 18);
-            label1.TabIndex = 0;
-            label1.Text = "Sales Total:";
+            label2.AutoSize = true;
+            label2.Font = new Font("Verdana", 9F, FontStyle.Bold);
+            label2.Location = new Point(8, 208);
+            label2.Name = "label2";
+            label2.Size = new Size(104, 18);
+            label2.TabIndex = 0;
+            label2.Text = "Sales Total:";
             // 
             // txtDiscount
             // 
@@ -653,15 +584,15 @@
             txtTotal.TabIndex = 0;
             txtTotal.Text = "0000";
             // 
-            // label2
+            // label3
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Verdana", 9F, FontStyle.Bold);
-            label2.Location = new Point(7, 245);
-            label2.Name = "label2";
-            label2.Size = new Size(84, 18);
-            label2.TabIndex = 0;
-            label2.Text = "Discount:";
+            label3.AutoSize = true;
+            label3.Font = new Font("Verdana", 9F, FontStyle.Bold);
+            label3.Location = new Point(7, 245);
+            label3.Name = "label3";
+            label3.Size = new Size(84, 18);
+            label3.TabIndex = 0;
+            label3.Text = "Discount:";
             // 
             // btn_search
             // 
@@ -682,17 +613,17 @@
             txtBarcode.Size = new Size(223, 34);
             txtBarcode.TabIndex = 1;
             // 
-            // label3
+            // label4
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Verdana", 9F, FontStyle.Bold);
-            label3.Location = new Point(8, 15);
-            label3.Name = "label3";
-            label3.Size = new Size(74, 18);
-            label3.TabIndex = 0;
-            label3.Text = "Barcode";
+            label4.AutoSize = true;
+            label4.Font = new Font("Verdana", 9F, FontStyle.Bold);
+            label4.Location = new Point(8, 15);
+            label4.Name = "label4";
+            label4.Size = new Size(74, 18);
+            label4.TabIndex = 0;
+            label4.Text = "Barcode";
             // 
-            // Grip
+            // Pumps
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -700,8 +631,8 @@
             Controls.Add(flowLayoutPanel3);
             Controls.Add(flowLayoutPanel2);
             Controls.Add(flowLayoutPanel1);
-            Name = "Grip";
-            Text = "Grip";
+            Name = "Pumps";
+            Text = "Pumps";
             flowLayoutPanel1.ResumeLayout(false);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
@@ -718,23 +649,19 @@
             panel6.ResumeLayout(false);
             panel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
-            panel7.ResumeLayout(false);
-            panel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             flowLayoutPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
             flowLayoutPanel3.ResumeLayout(false);
+            panel7.ResumeLayout(false);
+            panel7.PerformLayout();
             panel8.ResumeLayout(false);
             panel8.PerformLayout();
-            panel9.ResumeLayout(false);
-            panel9.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
-
         private FlowLayoutPanel flowLayoutPanel1;
         private Panel panel1;
         private Label label8;
@@ -761,16 +688,11 @@
         private Label label20;
         private Label label21;
         private PictureBox pictureBox5;
-        private Panel panel7;
-        private Label label22;
-        private Label label23;
-        private Label label24;
-        private PictureBox pictureBox6;
         private FlowLayoutPanel flowLayoutPanel2;
-        private PictureBox pictureBox7;
+        private PictureBox pictureBox6;
         private Panel panel3;
         private Button bt_log;
-        private Label pumps;
+        private Label label1;
         private Label pedals;
         private Label eyewear;
         private Label locks;
@@ -778,19 +700,18 @@
         private Label lb_Home;
         private Label grips;
         private FlowLayoutPanel flowLayoutPanel3;
-        private Panel panel8;
+        private Panel panel7;
         private Label txtDate;
         private Label date;
         private Label txtTransactionNo;
         private Label trac;
-        private Panel panel9;
-        private Label label1;
+        private Panel panel8;
+        private Label label2;
         private Label txtDiscount;
         private Label txtTotal;
-        private Label label2;
+        private Label label3;
         private Button btn_search;
         private TextBox txtBarcode;
-        private Label label3;
-        private Button button1;
+        private Label label4;
     }
 }

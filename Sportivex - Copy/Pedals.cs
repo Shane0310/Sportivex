@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Sportivex
 {
-    public partial class Grip : Form
+    public partial class Pedals : Form
     {
-        public Grip()
+        public Pedals()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel5_Paint(object sender, PaintEventArgs e)
-        {
-
         }
 
         private void lb_Home_Click(object sender, EventArgs e)
@@ -62,13 +52,6 @@ namespace Sportivex
             this.Hide();
         }
 
-        private void pedals_Click(object sender, EventArgs e)
-        {
-            Pedals pedals = new Pedals();
-            pedals.Show();
-            this.Hide();
-        }
-
         private void pumps_Click(object sender, EventArgs e)
         {
             Pumps pump = new Pumps();
@@ -76,18 +59,9 @@ namespace Sportivex
             this.Hide();
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
-            if (button1.Text.ToString() == "+")
-            {
-                button1.Text = "−";
-              
-            }
-            else
-            {
-                button1.Text = "+";
-                
-            }
+
         }
     }
 }

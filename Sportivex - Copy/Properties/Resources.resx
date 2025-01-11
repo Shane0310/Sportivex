@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="OnGuard Mastiff Bike Lock - Chain Lock6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OnGuard Mastiff Bike Lock - Chain Lock6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="71A0AxD2z3L._AC_SL1500_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\71A0AxD2z3L._AC_SL1500_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lockon grip1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lockon grip1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OnGuard Doberman Coil Cable Bike Lock2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OnGuard Doberman Coil Cable Bike Lock2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shimano-RS500-SPD-SL-Pedal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shimano-RS500-SPD-SL-Pedal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kapvoe Eyewear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kapvoe Eyewear.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exustar-bike-parts-accessories-e-pr2blk-64_10001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exustar-bike-parts-accessories-e-pr2blk-64_10001.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kaskprotonhelmet1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kaskprotonhelmet1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rubbergrip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rubbergrip.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lockon grip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lockon grip.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4KAAD Eyewear(pink)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4KAAD Eyewear(pink).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OnGuard Rottweiler Bike Lock 8024 - Armored Lock53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OnGuard Rottweiler Bike Lock 8024 - Armored Lock53.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kaskprotonhelmet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kaskprotonhelmet.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foamgrip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foamgrip.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OnGuard Bulldog DT Bike Lock U-Lock and Cable Combo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OnGuard Bulldog DT Bike Lock U-Lock and Cable Combo3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bicycle Pump" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bicycle Pump.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="61TKGyNGNAL._AC_SL1500_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\61TKGyNGNAL._AC_SL1500_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sportivex-removebg-preview (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sportivex-removebg-preview (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OnGuard Rottweiler Bike Lock 8024 - Armored Lock51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OnGuard Rottweiler Bike Lock 8024 - Armored Lock51.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="The-MEETLOCKS-Bike-Pedal-Injection-Magnesium-Alloy-Body-Cr-Mo-Machined-9-16-inch-Screw-Thread-Spindle-Ultra-DU-Sealed-Bearings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The-MEETLOCKS-Bike-Pedal-Injection-Magnesium-Alloy-Body-Cr-Mo-Machined-9-16-inch-Screw-Thread-Spindle-Ultra-DU-Sealed-Bearings.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rnoxhelmet2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rnoxhelmet2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VictGoal Helmet(RED)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VictGoal Helmet(RED).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BIKE PUMP aluminum alloy Mini Portable Bike pump" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BIKE PUMP aluminum alloy Mini Portable Bike pump.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HEURE Eyewear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HEURE Eyewear.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rnoxhelmet1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rnoxhelmet1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OnGuard Doberman Coil Cable Bike Lock1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OnGuard Doberman Coil Cable Bike Lock1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OnGuard Bulldog DT Bike Lock U-Lock and Cable Combo32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OnGuard Bulldog DT Bike Lock U-Lock and Cable Combo32.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OnGuard Doberman Coil Cable Bike Lock11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OnGuard Doberman Coil Cable Bike Lock11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pedals-mtb-scm204-front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pedals-mtb-scm204-front.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OnGuard Rottweiler Bike Lock 8024 - Armored Lock5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OnGuard Rottweiler Bike Lock 8024 - Armored Lock5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aluminum Portable Bike Floor Tire Pump" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Aluminum Portable Bike Floor Tire Pump.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kask Helmet(Blue)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kask Helmet(Blue).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exustar-bike-parts-accessories-e-pr2blk-64_1000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exustar-bike-parts-accessories-e-pr2blk-64_1000.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KOO Eyewear (Green)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KOO Eyewear (Green).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Van Rysel Helmet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Van Rysel Helmet.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OnGuard Rottweiler Bike Lock 8024 - Armored Lock52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OnGuard Rottweiler Bike Lock 8024 - Armored Lock52.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shimano-RS500-SPD-SL-Pedal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shimano-RS500-SPD-SL-Pedal1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OnGuard Pitbull STD Bike Lock U-Lock4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OnGuard Pitbull STD Bike Lock U-Lock4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OnGuard Bulldog DT Bike Lock U-Lock and Cable Combo31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OnGuard Bulldog DT Bike Lock U-Lock and Cable Combo31.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rnoxhelmet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rnoxhelmet.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Best-Bike-Pump-640x448" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Best-Bike-Pump-640x448.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VictGoal Helmet(RED)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VictGoal Helmet(RED)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shimano Eyewear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shimano Eyewear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="71A0AxD2z3L1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\71A0AxD2z3L._AC_SL1500_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mountainbike pedal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mountainbike pedal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kaskprotonhelmet2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kaskprotonhelmet2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCVCN Eyewear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SCVCN Eyewear.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Favoto Helmet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Favoto Helmet.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\glass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

@@ -1,6 +1,6 @@
 ﻿namespace Sportivex
 {
-    partial class Grip
+    partial class Helmets
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Grip));
             flowLayoutPanel1 = new FlowLayoutPanel();
             panel1 = new Panel();
-            button1 = new Button();
             label8 = new Label();
             label9 = new Label();
             label7 = new Label();
@@ -116,14 +114,13 @@
             flowLayoutPanel1.Controls.Add(panel5);
             flowLayoutPanel1.Controls.Add(panel6);
             flowLayoutPanel1.Controls.Add(panel7);
-            flowLayoutPanel1.Location = new Point(157, 0);
+            flowLayoutPanel1.Location = new Point(155, 3);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(459, 492);
-            flowLayoutPanel1.TabIndex = 7;
+            flowLayoutPanel1.Size = new Size(462, 541);
+            flowLayoutPanel1.TabIndex = 4;
             // 
             // panel1
             // 
-            panel1.Controls.Add(button1);
             panel1.Controls.Add(label8);
             panel1.Controls.Add(label9);
             panel1.Controls.Add(label7);
@@ -132,16 +129,6 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(211, 262);
             panel1.TabIndex = 0;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(65, 205);
-            button1.Name = "button1";
-            button1.Size = new Size(56, 29);
-            button1.TabIndex = 2;
-            button1.Text = "+";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click_1;
             // 
             // label8
             // 
@@ -165,15 +152,15 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label7.Location = new Point(24, 182);
+            label7.Location = new Point(45, 182);
             label7.Name = "label7";
-            label7.Size = new Size(147, 20);
+            label7.Size = new Size(126, 20);
             label7.TabIndex = 1;
-            label7.Text = "Aielbro Eyewear";
+            label7.Text = "Rnox Helmet ";
             // 
             // pictureBox1
             // 
-            pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
+            pictureBox1.BackgroundImage = Properties.Resources.rnoxhelmet2;
             pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox1.Location = new Point(19, 17);
             pictureBox1.Name = "pictureBox1";
@@ -214,15 +201,15 @@
             // 
             label12.AutoSize = true;
             label12.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label12.Location = new Point(35, 182);
+            label12.Location = new Point(19, 182);
             label12.Name = "label12";
-            label12.Size = new Size(147, 20);
+            label12.Size = new Size(187, 20);
             label12.TabIndex = 1;
-            label12.Text = "4KAAD Eyewear";
+            label12.Text = "Kask Helmet(white) ";
             // 
             // pictureBox2
             // 
-            pictureBox2.BackgroundImage = Properties.Resources._4KAAD_Eyewear_pink_;
+            pictureBox2.BackgroundImage = Properties.Resources.kaskprotonhelmet2;
             pictureBox2.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox2.Location = new Point(19, 17);
             pictureBox2.Name = "pictureBox2";
@@ -263,15 +250,15 @@
             // 
             label15.AutoSize = true;
             label15.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label15.Location = new Point(36, 182);
+            label15.Location = new Point(49, 182);
             label15.Name = "label15";
-            label15.Size = new Size(125, 20);
+            label15.Size = new Size(148, 20);
             label15.TabIndex = 1;
-            label15.Text = "KOO Eyewear";
+            label15.Text = "VictGoal Helmet";
             // 
             // pictureBox3
             // 
-            pictureBox3.BackgroundImage = Properties.Resources.KOO_Eyewear__Green_;
+            pictureBox3.BackgroundImage = Properties.Resources.VictGoal_Helmet_RED_1;
             pictureBox3.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox3.Location = new Point(19, 17);
             pictureBox3.Name = "pictureBox3";
@@ -312,15 +299,15 @@
             // 
             label18.AutoSize = true;
             label18.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label18.Location = new Point(25, 182);
+            label18.Location = new Point(28, 182);
             label18.Name = "label18";
-            label18.Size = new Size(150, 20);
+            label18.Size = new Size(161, 20);
             label18.TabIndex = 1;
-            label18.Text = "Kapvoe Eyewear";
+            label18.Text = "Van Rysel Helmet";
             // 
             // pictureBox4
             // 
-            pictureBox4.BackgroundImage = Properties.Resources.Kapvoe_Eyewear;
+            pictureBox4.BackgroundImage = Properties.Resources.Van_Rysel_Helmet;
             pictureBox4.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox4.Location = new Point(19, 17);
             pictureBox4.Name = "pictureBox4";
@@ -361,15 +348,15 @@
             // 
             label21.AutoSize = true;
             label21.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label21.Location = new Point(34, 182);
+            label21.Location = new Point(35, 182);
             label21.Name = "label21";
-            label21.Size = new Size(148, 20);
+            label21.Size = new Size(146, 20);
             label21.TabIndex = 1;
-            label21.Text = "SCVCN Eyewear";
+            label21.Text = "FAVOTO Helmet";
             // 
             // pictureBox5
             // 
-            pictureBox5.BackgroundImage = Properties.Resources.SCVCN_Eyewear;
+            pictureBox5.BackgroundImage = Properties.Resources.Favoto_Helmet;
             pictureBox5.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox5.Location = new Point(19, 17);
             pictureBox5.Name = "pictureBox5";
@@ -410,15 +397,15 @@
             // 
             label24.AutoSize = true;
             label24.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label24.Location = new Point(36, 182);
+            label24.Location = new Point(17, 182);
             label24.Name = "label24";
-            label24.Size = new Size(146, 20);
+            label24.Size = new Size(172, 20);
             label24.TabIndex = 1;
-            label24.Text = "HEURE Eyewear";
+            label24.Text = "Kask Helmet(Blue)";
             // 
             // pictureBox6
             // 
-            pictureBox6.BackgroundImage = Properties.Resources.HEURE_Eyewear;
+            pictureBox6.BackgroundImage = Properties.Resources.Kask_Helmet_Blue_;
             pictureBox6.BackgroundImageLayout = ImageLayout.Zoom;
             pictureBox6.Location = new Point(19, 17);
             pictureBox6.Name = "pictureBox6";
@@ -435,7 +422,7 @@
             flowLayoutPanel2.Location = new Point(0, 0);
             flowLayoutPanel2.Name = "flowLayoutPanel2";
             flowLayoutPanel2.Size = new Size(151, 495);
-            flowLayoutPanel2.TabIndex = 8;
+            flowLayoutPanel2.TabIndex = 10;
             // 
             // pictureBox7
             // 
@@ -459,7 +446,7 @@
             panel3.Controls.Add(grips);
             panel3.Location = new Point(3, 89);
             panel3.Name = "panel3";
-            panel3.Size = new Size(142, 405);
+            panel3.Size = new Size(142, 455);
             panel3.TabIndex = 1;
             // 
             // bt_log
@@ -520,6 +507,7 @@
             // 
             helmet.AutoSize = true;
             helmet.Font = new Font("Verdana", 10.2F, FontStyle.Bold);
+            helmet.ForeColor = Color.Transparent;
             helmet.Location = new Point(27, 112);
             helmet.Name = "helmet";
             helmet.Size = new Size(98, 20);
@@ -543,7 +531,6 @@
             // 
             grips.AutoSize = true;
             grips.Font = new Font("Verdana", 10.2F, FontStyle.Bold);
-            grips.ForeColor = Color.Transparent;
             grips.Location = new Point(27, 63);
             grips.Name = "grips";
             grips.Size = new Size(69, 20);
@@ -560,7 +547,7 @@
             flowLayoutPanel3.Location = new Point(616, 0);
             flowLayoutPanel3.Name = "flowLayoutPanel3";
             flowLayoutPanel3.Size = new Size(245, 495);
-            flowLayoutPanel3.TabIndex = 9;
+            flowLayoutPanel3.TabIndex = 11;
             // 
             // panel8
             // 
@@ -692,7 +679,7 @@
             label3.TabIndex = 0;
             label3.Text = "Barcode";
             // 
-            // Grip
+            // Helmets
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -700,8 +687,8 @@
             Controls.Add(flowLayoutPanel3);
             Controls.Add(flowLayoutPanel2);
             Controls.Add(flowLayoutPanel1);
-            Name = "Grip";
-            Text = "Grip";
+            Name = "Helmets";
+            Text = "Helmets";
             flowLayoutPanel1.ResumeLayout(false);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
@@ -734,7 +721,6 @@
         }
 
         #endregion
-
         private FlowLayoutPanel flowLayoutPanel1;
         private Panel panel1;
         private Label label8;
@@ -791,6 +777,5 @@
         private Button btn_search;
         private TextBox txtBarcode;
         private Label label3;
-        private Button button1;
     }
 }

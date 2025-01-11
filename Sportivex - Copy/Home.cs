@@ -328,7 +328,7 @@ namespace Sportivex
                         row["ProductId"],
                         row["ProductName"],
                         row["BarcodeValue"],
-
+                        
                         row["Price"],
                         row["Description"],
                         row["DateAdded"]
@@ -375,7 +375,7 @@ namespace Sportivex
             if (dataGridViewProducts.SelectedRows.Count > 0)
             {
                 // Clear the ListView before adding new items
-
+             
 
                 // Ensure that the ListView is set up with the proper columns
                 lista.View = View.Details;
@@ -451,15 +451,7 @@ namespace Sportivex
             this.Hide();
         }
 
-        private void bt_log_Click_1(object sender, EventArgs e)
-        {
-            Form1 form = new Form1();
-            form.Show();
-            this.Close();
-
-        }
-
-       
+   
     }
 }
 

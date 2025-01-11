@@ -10,21 +10,18 @@ using System.Windows.Forms;
 
 namespace Sportivex
 {
-    public partial class Grip : Form
+    public partial class Eyewear : Form
     {
-        public Grip()
+        public Eyewear()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void helmet_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void panel5_Paint(object sender, PaintEventArgs e)
-        {
-
+            Helmets helmet = new Helmets();
+            helmet.Show();
+            this.Hide();
         }
 
         private void lb_Home_Click(object sender, EventArgs e)
@@ -41,13 +38,6 @@ namespace Sportivex
             this.Hide();
         }
 
-        private void helmet_Click(object sender, EventArgs e)
-        {
-            Helmets helmet = new Helmets();
-            helmet.Show();
-            this.Hide();
-        }
-
         private void locks_Click(object sender, EventArgs e)
         {
             Locks locks = new Locks();
@@ -55,10 +45,10 @@ namespace Sportivex
             this.Hide();
         }
 
-        private void eyewear_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-            Eyewear eyewear = new Eyewear();
-            eyewear.Show();
+            Locks locks = new Locks();
+            locks.Show();
             this.Hide();
         }
 
@@ -74,20 +64,6 @@ namespace Sportivex
             Pumps pump = new Pumps();
             pump.Show();
             this.Hide();
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            if (button1.Text.ToString() == "+")
-            {
-                button1.Text = "−";
-              
-            }
-            else
-            {
-                button1.Text = "+";
-                
-            }
         }
     }
 }

@@ -246,7 +246,6 @@
             bt_log.TabIndex = 1;
             bt_log.Text = "Log Out";
             bt_log.UseVisualStyleBackColor = true;
-            bt_log.Click += bt_log_Click_1;
             // 
             // pumps
             // 
@@ -257,7 +256,7 @@
             pumps.Size = new Size(75, 20);
             pumps.TabIndex = 0;
             pumps.Text = "PUMPS";
-       
+            // 
             // pedals
             // 
             pedals.AutoSize = true;
